@@ -1,0 +1,384 @@
+*{
+    margin:0 ;
+    padding: 0;
+
+}
+/* start header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background: rgba(238, 198, 18, 0.945);
+}
+
+header img{
+    width: 150px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+header ul{
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    padding: 0 40px;
+    margin: 40px 20px;
+
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+header ul li a:hover{
+    border-bottom: 4px black solid;
+}
+
+/* header end */
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+}
+
+.content img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+/* start about */
+#about{
+    width: 100%;
+    height: 600px;
+    background: rgb(151, 146, 146);
+}
+
+#about h1{
+    position: absolute;
+    left: 300px;
+    bottom: -350px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#about p{
+    position: absolute;
+    left:250px ;
+    bottom: -430px;
+    width: 500px;
+}
+
+
+#about .img1{
+    position: absolute;
+    width: 300px;
+    left: 1200px;
+    bottom: -430px;
+    cursor: pointer;
+}
+#about .img2{
+    position: absolute;
+    width: 300px;
+    left: 1200px;
+    bottom: -750px;
+    cursor: pointer;
+}
+
+#about .img3{
+    position: absolute;
+    width: 300px;
+    left: 1600px;
+    bottom: -690px;
+    cursor: pointer;
+}
+
+/* about end */
+
+
+
+
+
+/* menu */
+
+#menu{
+    width: 100%;
+    height: 1000px;
+    background:white;
+
+}
+
+
+#menu .pizza1{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: 350px;
+    margin-top: 100px;
+
+}
+
+#menu .pizza1 .img1{
+    width: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#menu .pizza1 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+#menu .pizza1 p{
+    position: absolute;
+    left: 350px;
+    top: 90px;
+}
+
+#menu .pizza1 h3{
+    position: absolute;
+    top: 140px;
+    left: 350px;
+    font-size: 25px;
+}
+
+/* pizza 2 */
+
+#menu .pizza2{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: 350px;
+    margin-top: 400px;
+
+}
+#menu .pizza2 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+#menu .pizza2 p{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+#menu .pizza2 h3{
+    position: absolute;
+    top: 150px;
+    left:250px ;
+}
+
+/* end pizza 2 */
+
+
+/* start pizza3 */
+
+
+#menu .pizza3{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: 350px;
+    margin-top: 680px;
+
+}
+
+#menu .pizza3 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#menu .pizza3 p{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+
+
+#menu .pizza3 h3{
+    position: absolute;
+    top: 160px;
+    left: 350px;
+    font-size: 25px;
+}
+
+
+#menu .pizza3 img{
+    width: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* end pizza3 */
+
+
+/* start pizza4 */
+
+
+
+
+
+
+#menu .pizza4{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: 1150px;
+    margin-top: 100px;
+
+
+}
+#menu .pizza4 img{
+    width: 270px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#menu .pizza4 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+#menu .pizza4 p{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+}
+
+
+#menu .pizza4 h3{
+    position: absolute;
+    top: 140px;
+    left: 320px;
+    font-size: 25px;
+}
+
+/* end pizza4 */
+
+/* start pizza 5 */
+#menu .pizza5{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: 1150px;
+    margin-top: 395px;
+
+}
+#menu .pizza5 img{
+    width: 270px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#menu .pizza5 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+#menu .pizza5 p{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+}
+
+
+#menu .pizza5 h3{
+    position: absolute;
+    top: 140px;
+    left: 320px;
+    font-size: 25px;
+}
+/* end pizza5 */
+
+
+/* start pizza6 */
+#menu .pizza6{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: 1150px;
+    margin-top: 700px;
+
+
+}
+#menu .pizza6 img{
+    width: 270px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#menu .pizza6 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+#menu .pizza6 p{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+}
+
+
+#menu .pizza6 h3{
+    position: absolute;
+    top: 140px;
+    left: 320px;
+    font-size: 25px;
+}
+/* end pizza6 */
+/* end menu */
+
+
+/* start contacts */
+#contact{
+    width: 100%;
+    height: 700px;
+    background: rgb(37, 36, 36);
+}
+
+#contact h1{
+    margin-left: 800px;
+    padding-top: 100px;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+#contact ul li a img{
+    width: 70px;
+    position: relative;
+    top: 100px;
+    left: 700px;
+}
+
+#contact ul {
+    display: flex;
+    padding: 0 40px;
+
+}
+
+#contact ul li{
+    list-style: none;
+    padding: 0 30px;
+}
+
+
+
+/* end contacts */
